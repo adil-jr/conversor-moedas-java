@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class ConversionRecord {
+
     private final Currency fromCurrency;
     private final Currency toCurrency;
     private final BigDecimal originalAmount;
