@@ -64,7 +64,7 @@ public class ConversionRecord {
 
     public String toLogFormat() {
         return String.format("Timestamp: %s, De: %s, Para: %s, Valor Original: %.2f, Taxa: %.4f, Valor Convertido: %.2f",
-                timestamp.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME), 
+                timestamp.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME),
                 fromCurrency.getCode(),
                 toCurrency.getCode(),
                 originalAmount,
