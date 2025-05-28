@@ -45,7 +45,7 @@ public enum Currency {
     }
 
     public static void displayAvailableCurrencies() {
-        System.out.println("Moedas disponíveis para conversão");
+        System.out.println("Moedas disponíveis para conversão:");
         for (Currency currency : Currency.values()) {
             System.out.printf("%d. %s (%s)\n", currency.ordinal() + 1, currency.getDescription(), currency.getCode());
         }
